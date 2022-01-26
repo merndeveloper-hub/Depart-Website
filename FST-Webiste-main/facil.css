@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+
+* {
+   
+    box-sizing: border-box;
+}
+
+body{
+    background: whitesmoke; 
+}
+
+
+/*---header------------*/
+
+
+.header-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;    
+}
+
+.header-img img{
+    padding-top: 20px;
+    padding-left: 0px;
+    height: 110px;
+    width: 100px;
+}
+
+@media screen and (min-width: 480px) {
+    .header_content {width: 100%; }
+    .header_content .depart-Name h2,h4 {display: flex;
+    justify-content: center;
+align-items: center;
+text-align: center;
+width: 100%;}
+  }
+
+
+
+.depart-Name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+    font-weight:500 ;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+/*---navbar------------*/
+
+#nav-bar{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    margin-top: 10px;
+    
+}
+
+
+.navbar-brand img{
+height: 50px;
+padding-left: 30px;
+  
+}
+
+.navbar-nav li{
+margin-top: 10px;
+padding: 0 4px 0 0 ;
+
+
+} 
+
+.navbar-nav li a{
+float: right ;
+text-align: left ;
+
+}
+
+#nav-bar ul li a:hover{
+color: lightgreen !important;
+}
+
+.navbar{
+background:#fff;
+}
+
+.navbar-toggler{
+border: none !important;
+}
+
+.nav-link{
+margin-bottom: 5px;
+margin: 10px;
+font-weight: 600;
+font-family: 'Lora', serif;
+font-size: 20px;
+color: white !important;
+
+}
+
+
+
+/*---Metting rooms------------*/
+
+
+#container h1{
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#container h1::after{
+    content: "";
+    background:black;
+    display: block;
+    height:3px;
+    width:670px;
+    margin:20px auto 5px;
+}
+
+
+.card-deck .card .card-img-top{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+} 
+
+.card-title{
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-deck .card .card-img-top:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+
+#lab h1{
+    padding-top: 110px;
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#lab h1::after{
+    content: "";
+    background:black;
+    display: block;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
+}
+
+#lib h1{
+    padding-top: 40px;
+    text-align: center;
+    color: black;
+    padding-bottom: 20px;
+}
+
+#lib h1::after{
+    content: "";
+    background:black;
+    display: block;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
+}
+
+
+
+/* body{
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+#services h1{
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#services h1::after{
+    content: "";
+    background:black;
+    display: block;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
+}
+
+.services{
+    margin-top: 40px;
+}
+
+#services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: black;
+}
+
+.services .col-md-3:hover{
+       background: #007bff;
+       cursor: pointer;
+       transition: 0.7s;
+} */
